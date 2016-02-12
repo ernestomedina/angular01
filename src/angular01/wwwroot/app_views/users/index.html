@@ -1,0 +1,19 @@
+﻿
+<div layout="column" class="md-padding">
+    <div class="md-title">Listado de usuarios...</div>
+    <div class="md-padding">
+        
+        <table class="table">
+            <tr ng-repeat="itm in users" >
+                <td>{{itm.firstname}}</td>
+                <td>{{itm.lastname}}</td>
+                <td>
+                    <a href="" ng-click="getDetail(itm)" class="btn btn-primary btn-xs">
+                        Consultar
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</div>

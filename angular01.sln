@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD6C76CA-5A07-4B6D-BDE1-1B2AD57F5E25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57563B59-2F9B-4DFB-85AE-CF5B1FC2FCBE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "angular01", "src\angular01\angular01.xproj", "{F7340283-4181-42E0-A623-B7AC0EDCE6A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7340283-4181-42E0-A623-B7AC0EDCE6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7340283-4181-42E0-A623-B7AC0EDCE6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7340283-4181-42E0-A623-B7AC0EDCE6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7340283-4181-42E0-A623-B7AC0EDCE6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7340283-4181-42E0-A623-B7AC0EDCE6A6} = {BD6C76CA-5A07-4B6D-BDE1-1B2AD57F5E25}
+	EndGlobalSection
+EndGlobal

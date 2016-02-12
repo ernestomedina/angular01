@@ -1,0 +1,22 @@
+{
+  "name": "ASP.NET",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.1.4",
+    "angular": "1.4.9",
+    "angular-animate": "^1.4.8",
+    "angular-material": "~1.0.2",
+    "font-awesome": "4.4.0",
+    "angular-resource": "1.4.6",
+    "angular-sanitize": "1.4.6",
+    "angular-route": "1.4.6",
+    "moment": "2.10.6",
+    "moment-timezone": "0.4.0",
+    "angular-moment": "0.10.3",
+    "xdLocalStorage": "~2.0.1",
+    "bootstrap": "3.3.5"
+  },
+  "resolutions": {
+    "angular": "1.5.0"
+  }
+}

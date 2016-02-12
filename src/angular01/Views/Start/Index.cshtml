@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Angular Ejemplo 01</title>
+
+        <!-- Angular Material style sheet -->
+        <link rel="stylesheet" href="~/lib/angular-material/angular-material.css" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,700" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+        <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    </head>
+
+    <body ng-app="app" ng-cloak flex layout-fill layout="column">
+
+        <md-toolbar class="md-small md-whiteframe-2dp " layout="row" style="background-color: #052974;">
+            <div class="md-toolbar-tools" style="color:#fff;">
+                Titulo de la aplicacion
+            </div>
+        </md-toolbar>
+
+
+        <!-- Angular ng-view - contenedor donde se cargan las html views cada vez que se navega en una ruta -->
+        <div ng-view autoscroll="true"></div>
+
+
+
+        <!--Angular.js Libraries -->
+        <script src="~/lib/angular/angular.min.js"></script>
+        <script src="~/lib/angular-resource/angular-resource.min.js"></script>
+        <script src="~/lib/angular-sanitize/angular-sanitize.min.js"></script>
+        <script src="~/lib/angular-route/angular-route.min.js"></script>
+        <script src="~/lib/angular-animate/angular-animate.min.js"></script>
+        <script src="~/lib/angular-aria/angular-aria.min.js"></script>
+        <script src="~/lib/angular-messages/angular-messages.min.js"></script>
+    
+        <!-- Angular Material js -->
+        <script src="~/lib/angular-material/angular-material.min.js"></script>
+
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+        <!-- Configuracion de angular -->
+        <script src="~/app/app.js"></script>
+
+        <!-- onfiguracion servicios restful -->
+        <script src="~/app/models.js"></script>
+
+        <!--Controller para cada modulo -->
+        <script src="~/app/home/index.js"></script>
+        <script src="~/app/users/index.js"></script>
+        <script src="~/app/users/detail.js"></script>
+
+    </body>
+
+</html>
